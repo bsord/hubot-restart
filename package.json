@@ -1,0 +1,29 @@
+{
+  "name": "hubot-restart",
+  "version": "1.0.0",
+  "description": "Hubot restart command",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "restart"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsord/hubot-restart.git"
+  },
+  "author": {
+    "name": "Brandon Sorgdrager",
+    "email": "brandon.sorgdrager@gmail.com"
+  },
+  "main": "index.coffee",
+  "bugs": {
+    "url": "https://github.com/bsord/hubot-restart/issues"
+  },
+  "homepage": "https://github.com/bsord/hubot-restart",
+  "maintainers": [
+    {
+      "name": "bsord",
+      "email": "brandon.sorgdrager@gmail.com"
+    }
+  ]
+}
