@@ -55,13 +55,8 @@ module.exports = (robot) ->
       #Send confirmation
       robot.adapter.client.web.reactions.add('stopwatch', {channel: msg.message.room, timestamp: msg.message.id})
 
-      #Actually reboot
-      @exec = require('child_process').exec
-      command = "sleep 5; sudo reboot"
-      @exec command, (error, stdout, stderr) ->
-        msg.send error
-        msg.send stdout
-        msg.send stderr
+      #Exit the process (some external process monitor required to restart process.)
+      process.exit 0
 
   robot.respond /restart/i, (msg) ->
     # Check Auth

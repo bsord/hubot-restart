@@ -25,6 +25,6 @@ hubot must be registered as hubot.service
 
 hubot restart
 
-## Use - Reboot Host
+## Use - Exit process (needs to be restarted by process manager)
 
 hubot reboot 
