@@ -19,6 +19,12 @@ Then add **hubot-restart** to your `external-scripts.json`:
 
 hubot-redis-brain
 
-## Use
+hubot must be registered as hubot.service
+
+## Use - Restart Service
 
 hubot restart
+
+## Use - Reboot Host
+
+hubot reboot 
