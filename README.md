@@ -1,4 +1,4 @@
-# hubot-reboot
+# hubot-restart
 Hubot commands to restart the hubot service or reboot the machine (if running locally)
 
 ## Installation
